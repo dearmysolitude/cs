@@ -1,9 +1,11 @@
 # Computer Science Practices
 ## C/C++ 실습 환경
 ### WSL2
-Windows 11의 WSL2을 활용한 Ubuntu 22.04 환경, 문서 편집기는 VS Code 사용.
-- https://jhnyang.tistory.com/440
-- https://evols-atirev.tistory.com/29
+Windows 11의 WSL2을 활용한 Ubuntu 22.04. 컴파일러: g++. 문서 편집기는 VS Code에 C/C++ 확장기능 사용.
+
+참고: https://evols-atirev.tistory.com/29
+
+
 ### AWS EC2 / Ubuntu 환경
 
 난 서버 비용보다 커피가 더 중요해
