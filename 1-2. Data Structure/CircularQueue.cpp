@@ -77,7 +77,7 @@ void enqueue(int value, int& rear)
     }
     else
     {
-        rear = (rear + 1) % MAX_QUEUE_SIZE;
+        rear = (rear + 1) % MAX_QUEUE_SIZE; //enqueue하면 1 증가하나 크기보다 클 경우 다시 되돌아감: 원형큐
         qdata[rear] = value;
     }
 }
