@@ -26,7 +26,7 @@ KRISS와 Krafton 교육을 바탕으로 작성하였습니다.
 - [프림](./1-1.%20Algorithm/Prim.cpp)
 
 #### 1-2. 자료구조
-- [스택](./1-2.%20Data%20Structure/Stack.cpp)
+- [스택 C++](./1-2.%20Data%20Structure/Stack.cpp) / [스택 C](./1-2.%20Data%20Structure/Stack.c)
 - [원형큐](./1-2.%20Data%20Structure/CircularQueue.cpp)
 - [원형댁](./1-2.%20Data%20Structure/CircularDeque.cpp)
 - [이진트리](./1-2.%20Data%20Structure/BinaryTree.cpp)
