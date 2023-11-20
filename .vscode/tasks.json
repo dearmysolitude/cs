@@ -10,7 +10,7 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}.exe"
+				"${fileDirname}/build/${fileBasenameNoExtension}.exe"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
@@ -28,7 +28,7 @@
 		{
 			"type": "shell",
 			"label": "Run",
-			"command": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+			"command": "${fileDirname}\\build\\${fileBasenameNoExtension}.exe",
 			"problemMatcher": [
 				"$gcc"
 			],
