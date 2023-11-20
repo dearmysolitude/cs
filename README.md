@@ -14,12 +14,13 @@ Windows 11의 WSL2을 활용한 Ubuntu 22.04 환경, 문서 편집기는 VS Code
 KRISS와 Krafton 교육을 바탕으로 작성하였습니다.
 
 #### 1-1. 알고리즘
-- [머지소트](./1-1.%20Algorithm/MergeSort.cpp)
-- [퀵소트](./1-1.%20Algorithm/QuickSort.cpp) TODO
-- [쉘소트](./1-1.%20Algorithm/ShellSort.cpp)
-- [버블소트](./1-1.%20Algorithm/BubbleSort.cpp)
-- [힙소트](./1-1.%20Algorithm/HeapSort.cpp)
-- [선택&삽입소트](./1-1.%20Algorithm/Selection&InsertSort.cpp)
+- 정렬
+    - [머지소트](./1-1.%20Algorithm/MergeSort.cpp)
+    - [퀵소트](./1-1.%20Algorithm/QuickSort.cpp) TODO
+    - [쉘소트](./1-1.%20Algorithm/ShellSort.cpp)
+    - [버블소트](./1-1.%20Algorithm/BubbleSort.cpp)
+    - [힙소트](./1-1.%20Algorithm/HeapSort.cpp)
+    - [선택&삽입소트](./1-1.%20Algorithm/Selection&InsertSort.cpp)
 - [DFS](./1-1.%20Algorithm/DFS.cpp)
 - [Dijkstra](./1-1.%20Algorithm/Dijkstra.cpp)
 - [프림](./1-1.%20Algorithm/Prim.cpp)
