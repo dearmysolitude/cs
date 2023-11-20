@@ -1,5 +1,5 @@
-# C/C++
-## 실습 환경
+# Computer Science Practices
+## C/C++ 실습 환경
 ### WSL2
 Windows 11의 WSL2을 활용한 Ubuntu 22.04 환경, 문서 편집기는 VS Code 사용.
 - https://jhnyang.tistory.com/440
