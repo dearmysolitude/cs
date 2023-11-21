@@ -15,6 +15,8 @@ Windows 11의 WSL2을 활용한 Ubuntu 22.04. 컴파일러: g++. 문서 편집�
 ## 알고리즘 및 자료구조
 KRISS와 Krafton 교육을 바탕으로 작성하였습니다.
 
+참고로, C++로 작성된 알고리즘과 자료구조는(KRISS 공부 내용) 라이브러리로서의 사용성을 고려하지 않고 개념을 이해하기 위해 필요한 기본적인 메서드 구현에만 충실한 코드이니 열람 시 주의할 것.
+
 #### 1-1. 알고리즘
 - 정렬
     - [머지소트](./1-1.%20Algorithm/MergeSort.cpp)
@@ -28,8 +30,9 @@ KRISS와 Krafton 교육을 바탕으로 작성하였습니다.
 - [프림](./1-1.%20Algorithm/Prim.cpp)
 
 #### 1-2. 자료구조
-- [스택 C++](./1-2.%20Data%20Structure/Stack.cpp) / [스택 C](./1-2.%20Data%20Structure/Stack.c)
-- [원형큐](./1-2.%20Data%20Structure/CircularQueue.cpp)
+- 스택 [C++](./1-2.%20Data%20Structure/Stack.cpp) / [C](./1-2.%20Data%20Structure/Stack.c)
+- 선형큐 [C](./1-2.%20Data%20Structure/LinearQueue.c)
+- 원형큐 [C++](./1-2.%20Data%20Structure/CircularQueue.cpp) / [C](./1-2.%20Data%20Structure/CircularQueue.c)
 - [원형댁](./1-2.%20Data%20Structure/CircularDeque.cpp)
 - [이진트리](./1-2.%20Data%20Structure/BinaryTree.cpp)
 - [RB 트리](./1-2.%20Data%20Structure/rbtree-lab/) TODO
