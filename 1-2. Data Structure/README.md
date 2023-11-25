@@ -36,11 +36,20 @@ Sentinel을 사용하는 것이 메모리 할당을 해제할 때 예외를 발�
 
 → freeRemaining 메서드가 Sentinel에 도달했을 때 제대로 된 처리가 되지 않아 잘못된 메모리 구역을 free하는 경우가 발생하였기 때문.
 
-## [Circular Queue]
+## Circular Queue
 
-### [with C]
+### [with C](CircularQueue.c)
+#### 구현
+- Linear queue와는 다르게 리스트로 구현하였다: 정적할당
+- front와 rear는 리스트의 index를 가르키는 int이고, circular queue이므로 숫자를 다룰 때 % MAX_QUEUE_SIZE가 요긴하게 사용되었다: 해당 연산을 통해 MAX_QUQUE_SIZE 내의 숫자로만 index가 돌도록 조작할수 있다.
+- Circular QUEUE의 경우에는 MAX_QUEUE_SIZE보다 하나 작은 갯수의 요소를 가지게 하여 front와 rear가 같은 곳을 가르키는 원소가 하나도 없는 경우와 구분하게 한다.
 
-### [with C++]
+### [with C++](CircularQueue.cpp)
+- 교재대로 구현한 circular queue
+- 리스트의 선언과 동시에 초기화하는 C++ 만의 문법을 C에서는 사용할 수 없다는 것을 처음 발견한 코드
+    - { 0 }과 같은 일괄 초기화는 C에서는 사용할 수 없다.
+    - C에서는 선언과 동시에 초기화가 이루어져야 한다.
+    - C++은 C보다 엄격한 타입 검사를 하며, 배열 크기는 타입의 일부로, 컴파일 시점에 알려져야 한다: 선언과 초기화 분리 가능
 
 ## Circular Dequeue
 
