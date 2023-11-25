@@ -10,6 +10,18 @@ typedef struct stack {
     struct Node *top;
 } stack;
 
+void freeRemaining(stack *s) {
+    doFree(s->top);
+    free(s);
+}
+
+void doFree(Node *node) {
+    if(node != NULL) {
+        doFree(node->next);
+        free(node);
+    }
+}
+
 void push(stack *s, int data) {
     Node *newNode = (Node*)malloc(sizeof(Node));
     newNode->data = data;
@@ -48,7 +60,7 @@ int main() {
     printf("팝: %d\n", pop(s));
     printf("팝: %d\n", pop(s));
 
-    free(s);
+    freeRemaining(s);
 
     return 0;
 }
