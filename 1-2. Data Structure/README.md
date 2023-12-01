@@ -68,6 +68,10 @@ Deque은 앞/뒤에서 데이터를 push/pop할 수 있는 기능을 제공하�
 </br>
 
 ### Linear Dequeu: C
+[구현](LinearDeque.c)
+- 이중 연결 리스트를 사용하여 구현
+- 포인터 연결을 할 때 주의하지 않으면 디버깅도 힘든 오류를 마구 뱉어냄
+- 그 부분만 해결하면 이전 구현보다 특별히 어려운 점은 없는 것 같다.
 
 ### Circular Dequeu: C++
 [구현](CircularDeque.cpp)
