@@ -45,8 +45,6 @@ Sentinel을 사용하는 것이 메모리 할당을 해제할 때 예외를 발�
 
 → freeRemaining 메서드가 Sentinel에 도달했을 때 제대로 된 처리가 되지 않아 잘못된 메모리 구역을 free하는 경우가 발생하였기 때문.
 
-</br>
-
 ### Circular Queue: C
 [구현](CircularQueue.c)
 - Linear queue와는 다르게 리스트로 구현하였다: 정적할당

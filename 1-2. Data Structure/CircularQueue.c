@@ -117,4 +117,5 @@ int main () {
     printQueue(queue);
 
     free(queue);
+    return 0;
 }
