@@ -1,15 +1,16 @@
 # Computer Science Practices
+
+구현이 덜 된 webproxy와 rbtree 다시 작성 예정
+
 ## C/C++ 실습 환경
 ### WSL2
-Windows 11의 WSL2을 활용한 Ubuntu 22.04. 컴파일러: GDB. 문서 편집기는 VS Code에 C/C++ 확장기능 사용.
+Windows 11의 WSL2을 활용한 Ubuntu 22.04. 컴파일러: GDB. 문서 편집기는 VS Code에 C/C++ 확장기능 사용. 이 레포의 lab 시리즈는 구동이 안된다.
 
 참고: https://code.visualstudio.com/docs/cpp/config-wsl
 
 ### AWS EC2 / Ubuntu 환경
 
-난 서버 비용보다 커피가 더 중요해
-
-</br>
+### VMware 가상화 / Ubuntu 환경
 
 ## 1. 알고리즘 및 자료구조
 KRISS와 Krafton 교육을 바탕으로 작성하였습니다.
