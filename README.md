@@ -4,9 +4,11 @@
 
 ## C/C++ 실습 환경
 ### WSL2
-Windows 11의 WSL2을 활용한 Ubuntu 22.04. 컴파일러: GDB. 문서 편집기는 VS Code에 C/C++ 확장기능 사용. 이 레포의 lab 시리즈는 구동이 안된다.
+Windows 11의 WSL2을 활용한 Ubuntu 22.04. 컴파일러: GDB. 문서 편집기는 VS Code에 C/C++ 확장기능 사용.
 
 참고: https://code.visualstudio.com/docs/cpp/config-wsl
+
+- Webproxy-lab 에서 발생하는 `bits/libc-header-start.h: No such file or directory`문제는 64비트 운영체제에서 32비트로 컴파일하려고 하기때문에 발생한다. `sudo apt-get install gcc-multilib g++-multilib`를 통해 해결할 수 있다.
 
 ### AWS EC2 / Ubuntu 환경
 
